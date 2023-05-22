@@ -2,6 +2,9 @@ pg: &pg
   adapter: postgresql
   encoding: unicode
   pool: 30
+  host: db
+  username: volodya
+  password: 1234 
 
 development:
   <<: *pg
